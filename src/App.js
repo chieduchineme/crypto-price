@@ -114,7 +114,7 @@ const App = () => {
   }, [chosenCoin, currency, search]);
 
   return (
-    <div style={{marginLeft: "6em"}}>
+    <div style={{marginLeft: "8em"}}>
       <main>
           <Header currency={currency} setCurrency={setCurrency} coinName={coinDetails?.name}/>
           <ThreeDotsHeader />
