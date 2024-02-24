@@ -151,7 +151,7 @@ const App = () => {
       </main>
       <BuySellButon symbol={coinDetails?.symbol} name={coinDetails?.name}
         coinInfo={homeData.filter((coin) => coin.id === chosenCoin)[0]} />
-      <Footer />
+      <Footer style={{marginTop: "4em"}} />
 
     </div>
   );
