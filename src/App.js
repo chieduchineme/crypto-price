@@ -114,7 +114,7 @@ const App = () => {
   }, [chosenCoin, currency, search]);
 
   return (
-    <div style={{marginLeft: "4em"}}>
+    <div style={{marginLeft: "6em"}}>
       <main>
           <Header currency={currency} setCurrency={setCurrency} coinName={coinDetails?.name}/>
           <ThreeDotsHeader />
@@ -133,12 +133,12 @@ const App = () => {
                 <Form.Control type="text" placeholder="Re-Search For a Coin" onChange={handleSearchChange} />
               </div>
             }
-            { rateExceeded === "yes" &&
-              <div style={{marginBottom: "7.5em", marginLeft:"3em"}}>
-                <h4>You've exceeded the Rate Limit.</h4>
-                <p>Please visit https://www.coingecko.com/en/api/pricing to subscribe</p>
-              </div>
-            }
+            // { rateExceeded === "yes" &&
+            //   <div style={{marginBottom: "7.5em", marginLeft:"3em"}}>
+            //     <h4>You've exceeded the Rate Limit.</h4>
+            //     <p>Please visit https://www.coingecko.com/en/api/pricing to subscribe</p>
+            //   </div>
+            // }
             <OrdinaryComponent
                 coinHistory={coinData}
                 chosenCoin={chosenCoin}
