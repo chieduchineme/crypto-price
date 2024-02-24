@@ -114,7 +114,7 @@ const App = () => {
   }, [chosenCoin, currency, search]);
 
   return (
-    <>
+    <div style={{marginLeft: "4em"}}>
       <main>
           <Header currency={currency} setCurrency={setCurrency} coinName={coinDetails?.name}/>
           <ThreeDotsHeader />
@@ -153,7 +153,7 @@ const App = () => {
         coinInfo={homeData.filter((coin) => coin.id === chosenCoin)[0]} />
       <Footer />
 
-    </>
+    </div>
   );
 };
 
