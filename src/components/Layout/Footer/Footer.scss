@@ -1,0 +1,40 @@
+// colors
+$red: red;
+$green: green;
+$black: black;
+$white: #ffffff;
+
+// margins
+$unitGap: 1rem;
+$doubleGap: 2rem;
+$font-stack: "Arial", sans-serif;
+$font-weight-bold: 800;
+$font-size: 3vh;
+$margin-mobile: 3em;
+$margin-desktop: 0.3em;
+
+$fontFamily: sans-serif;
+
+ .footerBackground {
+    background-color: $white;
+    width: 31em; /* Adjust the width of your container */
+    height: 6em;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    // margin-top: 1.6em;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+  }
+
+.footerImageSize {
+  height: 1.5em;
+  justify-content: center;
+  margin: auto;
+}
+
+.footerIconSize {
+  height: 0.4em;
+  margin-top: 1.2rem;
+}

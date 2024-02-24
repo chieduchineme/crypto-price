@@ -1,0 +1,55 @@
+{
+  "name": "crypto-dashboard",
+  "version": "0.1.0",
+  "private": false,
+  "dependencies": {
+    "@craco/craco": "^7.1.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mui/material": "^5.14.1",
+    "axios": "^0.24.0",
+    "bootstrap": "^4.6.2",
+    "react": "^17.0.2",
+    "react-bootstrap": "2.8",
+    "react-chartjs-2": "^4.0.0",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-loader-spinner": "^4.0.0",
+    "react-responsive": "^9.0.2",
+    "react-router-dom": "^6.14.2",
+    "react-scripts": "4.0.3",
+    "recharts": "^2.7.2"
+  },
+  "scripts": {
+    "build:scss": "node-sass src/styles/main.scss -o public/css",
+    "watch:scss": "npm run build:scss -- --watch",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "node-sass": "^9.0.0",
+    "npm-run-all": "^4.1.5"
+  }
+}

@@ -1,0 +1,38 @@
+$fontFamily: sans-serif;
+
+// colors
+$red: red;
+$green: green;
+$black: black;
+$white: #ffffff;
+
+// margins
+$unitGap: 1rem;
+$doubleGap: 2rem;
+
+.input-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  outline: none;
+  border: none;
+  padding: 10px;
+  background-color: #0c2f53;
+  color: $white;
+}
+
+.label {
+  margin-right: 10px;
+  color: $white;
+  font-size: 1.25rem;
+}
+
+@media only screen and (max-width: 400px) {
+  .input {
+    width: 200px;
+  }
+}

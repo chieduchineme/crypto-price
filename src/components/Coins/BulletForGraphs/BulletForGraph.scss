@@ -1,0 +1,39 @@
+/* Styles for the green bullet point */
+$fontFamily: sans-serif;
+
+// colors
+$red: red;
+$green: green;
+$black: black;
+$white: #ffffff;
+
+// margins
+$unitGap: 1rem;
+$doubleGap: 2rem;
+
+.bullet_list {
+    /* list-style-type: none; */
+    margin-left: -200px;
+    display: flex;
+    flex-direction: row;
+}
+  
+.green_bullet::before {
+    border-radius: 50%;
+    background: $green;
+  }
+.green_bullet{
+    font-family: $fontFamily;
+    color: $green;
+}
+ .orange_bullet {
+     font-family: $fontFamily;
+     color: $red;
+ }
+ul {
+    font-size: small;
+}
+.coloredImageSize {
+    height: 8px;
+    margin-right: 0.5rem
+}

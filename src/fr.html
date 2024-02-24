@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .container {
+        width: 400px; /* Adjust the width of your container */
+        height: 100px; /* Adjust the height of your container */
+        display: flex;
+        background: linear-gradient(green, green 25%, green 25%, green 75%, brown 75%, brown)
+    }
+
+    .brown {
+        flex: 1;
+        background-color: brown;
+    }
+
+    .green {
+        flex: 1; /* Adjust the ratio of green to brown */
+        background-color: green;
+    }
+  </style>
+</head>
+<body>
+    <div class="container">
+        <div class="brown" style="border-top-right-radius: 30%"></div>
+        <div class="green" style="border-bottom-left-radius: 30%"></div>
+        <div class="green" style="border-bottom-right-radius: 30%"></div>
+        <div class="brown" style="border-top-left-radius: 30%"></div>
+    </div>
+</body>
+</html>
